@@ -41,6 +41,7 @@ ul.menu-principal li {
 
 ul.menu-principal li a {
 	color: #4c7c90;
+	font-family: 'Segoe UI';
     text-decoration: none;
     border-radius: 30px;
     padding: 15px;
@@ -52,6 +53,7 @@ ul.menu-principal li a {
 ul.menu-principal li a:hover {
 	background-color: #41bbb0;
 	color: white;
+	cursor: pointer;
 }
 main {
 	padding-top: 70px;
