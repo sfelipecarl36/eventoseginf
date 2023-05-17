@@ -66,13 +66,14 @@ h1.title {
 	font-size: 28px;
 	color: #404040;
 	font-weight: 100;
-	margin: 25px 0px;
+	margin: 15px 0px;
 	margin-top: 50px;
 }
 
 p {
 	color: #777777;
     font-size: 15px;
+    margin: 0;
 }
 
 section {
@@ -93,7 +94,17 @@ div.container {
 }
 
 img.main {
-	width: 1000px;
+	width: 100%;
+}
+
+#footer {
+	min-height: 180px;
+	width: 100%;
+	background: #1a213b;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0;
 }
 
 @media (min-width: 1200px) {
@@ -120,3 +131,4 @@ section {
     max-width: 540px;
 }
 }
+
