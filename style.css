@@ -259,5 +259,9 @@ img.main {
 	.banner {
 		height: 400px;
 	}
+
+	h1.title {
+		font-size: 20px;
+	}
 }
 
