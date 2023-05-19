@@ -3,12 +3,8 @@ var slideNum = 2;
 var slideIndex = 1;
 
 function navegar(url) {
-	console.log(url)
 	const target = document.getElementById(String(url))
-	console.log(target);
 	yTarget = target.offsetTop - document.body.scrollTop - 120;
-
-	console.log(yTarget);
 	
 	window.scrollTo({
   		top: yTarget,
@@ -42,6 +38,10 @@ function sidebarCheck() {
 
 }
 
+function scrolltotop() {
+	window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
 function nextSlide() {
 
 	var imgbanner = document.getElementById('imgbanner');
@@ -58,4 +58,4 @@ function nextSlide() {
 	}
 }
 
-setTimeout(nextSlide, 5000);
+// setTimeout(nextSlide, 5000);
