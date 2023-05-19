@@ -58,4 +58,17 @@ function nextSlide() {
 	}
 }
 
+function scrollCheck() {
+	scrollE = document.getElementById('scrollTop');
+	if(window.scrollY<150) {
+		scrollE.style.display = 'none';
+	}
+
+	else {
+		scrollE.style.display = 'flex';
+	}
+}
+
+document.addEventListener("scroll", scrollCheck);
+
 // setTimeout(nextSlide, 5000);

@@ -35,6 +35,9 @@ body {
     z-index: 96;
     cursor: pointer;
     transition-duration: 300ms;
+    -webkit-user-select: none;
+  	-ms-user-select: none; 
+  	user-select: none;
 }
 
 .scrollTop:hover {
