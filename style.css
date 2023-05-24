@@ -209,7 +209,6 @@ main {
 h1.title {
 	font-size: 28px;
 	color: #01426A;
-	font-weight: 100;
 	margin: 15px 0px;
 	margin-top: 50px;
 }
@@ -394,6 +393,7 @@ img.rede-social {
 
 	h1.title {
 		font-size: 20px;
+		font-weight: 600;
 	}
 
 	table {
