@@ -50,7 +50,7 @@ body {
 
 #arrowtop {
 	filter: invert(1) brightness(2);
-	height: 14px;
+	height: 11px;
 	margin-bottom: 5px;
 	transition-duration: 150ms;
 }
@@ -218,6 +218,10 @@ p {
 	color: #777777;
     font-size: 15px;
     margin: 0;
+}
+
+table {
+	margin: 10px 0px;
 }
 
 section {
@@ -390,6 +394,10 @@ img.rede-social {
 
 	h1.title {
 		font-size: 20px;
+	}
+
+	table {
+		width: 100%;
 	}
 
 	#footer {
